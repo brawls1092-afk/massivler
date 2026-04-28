@@ -1,0 +1,17 @@
+button{
+    padding: 12px 25px;
+    background: linear-gradient();
+    transition: 0,3s;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0%,100%{transform:scale(1);}
+    50%{transform:scale(1.2);}
+}
+button:hover{
+    transform: scale(1.2);
+    background: purple;
+    color: white;
+    border: 0px;
+    box-shadow: 0px 0px 10px purple;
+}
